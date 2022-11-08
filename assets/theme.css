@@ -7054,7 +7054,7 @@ header{
 #cart-counter{
   position: absolute;
   top: 0;
-  right: -45%;
+  right: -35%;
   height: 15px;
   width: 15px;
   display: flex;
