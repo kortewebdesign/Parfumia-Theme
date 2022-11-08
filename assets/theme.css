@@ -7082,6 +7082,7 @@ header{
   height: 50px;
   width: 50px;
   border-radius: 10px;
+  padding: 10% 0;
 }
 #hamburger-button > div > span{
   height: 2px;
