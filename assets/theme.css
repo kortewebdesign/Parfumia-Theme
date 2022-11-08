@@ -7014,7 +7014,7 @@ header{
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header-link-list a{
   font-weight: 600!important;
@@ -7022,12 +7022,17 @@ header{
 }
 .logo-wrapper{
   padding-left: 0!important;
-}
-.logo-wrapper, .cart-wrapper{
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cart-wrapper{
+  padding-left: 0!important;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 .cart-wrapper ul{
   width: 100px;
