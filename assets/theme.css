@@ -7053,3 +7053,8 @@ header{
 #hamburger-button{
   height: 100%;
 }
+@media only screen and (max-width: 749px) {
+  .cart-wrapper li:first-child{
+    display: none!important;
+  }
+}
