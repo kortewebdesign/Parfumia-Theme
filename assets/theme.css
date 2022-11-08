@@ -7016,6 +7016,9 @@ header{
   float: left;
   width: 50%;
 }
+.cart-wrapper li:first-child(){
+  border-right: 2px solid var(--color-body-text);
+}
 .cart-wrapper li a{
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 2em);
 }
