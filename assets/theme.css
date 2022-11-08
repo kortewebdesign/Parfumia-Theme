@@ -7013,6 +7013,9 @@ header{
   width: 150px;
   height: 50px;
   background-color: var(--color-body-text)!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cart-wrapper li{
   display: flex;
