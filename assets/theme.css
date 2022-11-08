@@ -7004,7 +7004,7 @@ header{
   left: 50%;
   transform: translateX(-50%);
   height: 20vh;
-  width: 95%;
-  border-radius: 50px;
+  width: 98%;
+  border-radius: 20px;
   z-index: 1000;
 }
