@@ -7053,8 +7053,8 @@ header{
 }
 #cart-counter{
   position: absolute;
-  top: -5px;
-  right: -50%;
+  top: 0;
+  right: -45%;
   height: 15px;
   width: 15px;
   display: flex;
