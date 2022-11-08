@@ -9,6 +9,9 @@
         {%- if section.settings.link-3 != blank -%}
         <a href="{{section.settings.link-3}}">Über uns</a>
         {%- endif -%}
+        <div class="logo-wrapper">
+            <img src="{{section.settings.logo | img_url}}" alt="">
+        </div>
     </div>
 
 </header>
