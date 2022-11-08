@@ -7011,6 +7011,8 @@ header{
 }
 .header-link-list{
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .logo-wrapper, .cart-wrapper{
   height: 100%;
