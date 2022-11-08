@@ -7009,6 +7009,9 @@ header{
   z-index: 1000;
   margin-left: 0!important;
 }
+.cart-wrapper ul{
+  width: 150px;
+}
 .cart-wrapper li{
   float: left;
   width: 50%;
