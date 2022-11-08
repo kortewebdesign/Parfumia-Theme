@@ -7069,6 +7069,9 @@ header{
 #hamburger-button{
   height: 100%;
 }
+#hamburger-button > div{
+  background-color: var(--color-body-text);
+}
 @media only screen and (max-width: 749px) {
   .cart-wrapper ul{
     width: 50px;
