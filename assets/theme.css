@@ -7085,8 +7085,8 @@ header{
   padding: 8% 0;
 }
 #hamburger-button > div > span{
-  height: 2px;
-  width: 65%;
+  height: 3px;
+  width: 50%;
   background-color:  var(--color-bg);
 }
 @media only screen and (max-width: 749px) {
