@@ -7014,6 +7014,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .logo-wrapper, .cart-wrapper{
   height: 100%;
