@@ -7005,11 +7005,14 @@ header{
   transform: translateX(-50%);
   height: 15vh;
   width: 98%;
-  border-radius: 20px;
+  border-radius: 10px;
   z-index: 1000;
   margin-left: 0!important;
 }
-.logo-wrapper{
+.header-link-list{
+  display: flex;
+}
+.logo-wrapper, .cart-wrapper{
   height: 100%;
   display: flex;
   align-items: center;
