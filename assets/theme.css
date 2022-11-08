@@ -7009,6 +7009,12 @@ header{
   z-index: 1000;
   margin-left: 0!important;
 }
+.logo-wrapper{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .cart-wrapper ul{
   width: 150px;
   height: 50px;
