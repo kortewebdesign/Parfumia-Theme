@@ -7000,7 +7000,10 @@ hr {
 header{
   position: fixed;
   background: transparent;
+  top: 2vh;
+  left: 0;
   height: 20vh;
   width: 95%;
   border-radius: 10%;
+  z-index: 1000;
 }
