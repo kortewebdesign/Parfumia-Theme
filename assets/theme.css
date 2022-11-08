@@ -7005,6 +7005,6 @@ header{
   transform: translateX(-50%);
   height: 20vh;
   width: 95%;
-  border-radius: 10%;
+  border-radius: 50px;
   z-index: 1000;
 }
