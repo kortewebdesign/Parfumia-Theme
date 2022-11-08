@@ -7012,7 +7012,7 @@ header{
 .cart-wrapper ul{
   width: 150px;
   height: 75px;
-  background-color: var(--color-body)!important;
+  background-color: var(--color-body-text)!important;
 }
 .cart-wrapper li{
   display: flex;
