@@ -7009,7 +7009,7 @@ header{
   z-index: 1000;
   margin-left: 0!important;
   transition: .2s background-color linear;
-  padding: 0 2%;
+  padding: 0 2%!important;
 }
 .header-link-list{
   height: 100%;
