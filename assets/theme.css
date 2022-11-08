@@ -7017,5 +7017,5 @@ header{
   width: 50%;
 }
 .cart-wrapper li a{
-  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 2em);
 }
