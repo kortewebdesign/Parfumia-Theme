@@ -7020,6 +7020,9 @@ header{
   font-weight: 600!important;
   text-transform: uppercase;
 }
+.logo-wrapper{
+  padding-left: 0!important;
+}
 .logo-wrapper, .cart-wrapper{
   height: 100%;
   display: flex;
