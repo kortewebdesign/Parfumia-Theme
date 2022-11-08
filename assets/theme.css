@@ -7044,6 +7044,6 @@ header{
   border-right: 2px solid var(--color-bg);
 }
 .cart-wrapper li a{
-  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 2em);
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
   color: var(--color-bg)!important;
 }
