@@ -7016,7 +7016,7 @@ header{
   float: left;
   width: 50%;
 }
-.cart-wrapper li:first-child(){
+.cart-wrapper li:first-child{
   border-right: 2px solid var(--color-body-text);
 }
 .cart-wrapper li a{
