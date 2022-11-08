@@ -7013,6 +7013,9 @@ header{
   width: 150px;
 }
 .cart-wrapper li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   float: left;
   width: 50%;
 }
