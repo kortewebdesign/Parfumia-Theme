@@ -7010,6 +7010,7 @@ header{
   margin-left: 0!important;
 }
 .header-link-list{
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
