@@ -7050,3 +7050,6 @@ header{
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
   color: var(--color-bg)!important;
 }
+#hamburger-button{
+  height: 100%;
+}
