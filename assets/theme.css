@@ -7010,6 +7010,6 @@ header{
   margin-left: 0!important;
 }
 .cart-wrapper li{
-  display: inline-block;
+  float: left;
   width: 50%;
 }
