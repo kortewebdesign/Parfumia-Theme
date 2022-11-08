@@ -7067,6 +7067,9 @@ header{
   font-weight: 600;
 }
 #hamburger-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
 }
 #hamburger-button > div{
