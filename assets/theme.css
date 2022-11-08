@@ -7019,6 +7019,7 @@ header{
 }
 .header-link-list a{
   font-weight: 600!important;
+  text-transform: uppercase;
 }
 .logo-wrapper, .cart-wrapper{
   height: 100%;
