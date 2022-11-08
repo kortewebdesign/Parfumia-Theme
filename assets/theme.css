@@ -6999,4 +6999,6 @@ hr {
 
 header{
   height: 20vh;
+  width: 95%;
+  border-radius: 10%;
 }
