@@ -7069,7 +7069,7 @@ header{
 #hamburger-button{
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   height: 100%;
 }
 #hamburger-button > div{
