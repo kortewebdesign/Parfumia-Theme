@@ -7009,6 +7009,7 @@ header{
   z-index: 1000;
   margin-left: 0!important;
   transition: .2s background-color linear;
+  padding: 0 2%;
 }
 .header-link-list{
   height: 100%;
@@ -7077,7 +7078,7 @@ header{
 #hamburger-button{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   height: 100%;
   padding-left: 0!important;
 }
