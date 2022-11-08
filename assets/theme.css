@@ -7023,7 +7023,7 @@ header{
   justify-content: center;
   float: left;
   width: 50%;
-  height: 70%;
+  height: 40%;
 }
 .cart-wrapper li:first-child{
   border-right: 2px solid var(--color-bg);
