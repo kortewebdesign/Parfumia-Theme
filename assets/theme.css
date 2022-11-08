@@ -7011,6 +7011,7 @@ header{
 }
 .cart-wrapper ul{
   width: 150px;
+  background: var(--color-body-text);
 }
 .cart-wrapper li{
   display: flex;
@@ -7018,9 +7019,10 @@ header{
   justify-content: center;
   float: left;
   width: 50%;
+  color: var(--color-bg)!important;
 }
 .cart-wrapper li:first-child{
-  border-right: 2px solid var(--color-body-text);
+  border-right: 2px solid var(--color-bg);
 }
 .cart-wrapper li a{
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 2em);
