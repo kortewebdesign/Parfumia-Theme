@@ -6999,7 +6999,7 @@ hr {
 
 header{
   position: fixed;
-  background-color: transparent;
+  background-color: white;
   top: 2vh;
   left: 50%;
   transform: translateX(-50%);
