@@ -7011,6 +7011,7 @@ header{
 }
 .cart-wrapper ul{
   width: 150px;
+  height: 75px;
   background-color: var(--color-body)!important;
 }
 .cart-wrapper li{
