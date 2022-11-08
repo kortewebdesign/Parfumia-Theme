@@ -7074,10 +7074,19 @@ header{
   padding-left: 0!important;
 }
 #hamburger-button > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: var(--color-body-text);
   height: 50px;
   width: 50px;
   border-radius: 10px;
+}
+#hamburger-button > div > span{
+  height: 2px;
+  width: 80%;
+  color:  var(--color-bg);
 }
 @media only screen and (max-width: 749px) {
   header{
