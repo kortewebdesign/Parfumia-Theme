@@ -7062,6 +7062,7 @@ header{
   justify-content: center;
   background-color: var(--color-sale-text);
   font-size: 11px;
+  border-radius: 100px;
 }
 #hamburger-button{
   height: 100%;
