@@ -7103,6 +7103,11 @@ header{
   width: 100vw;
   background-size: cover!important;
 }
+#startseite-hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 main{
   padding-top: 0!important;
 }
