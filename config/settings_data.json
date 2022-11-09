@@ -231,9 +231,20 @@
           "text": "<p>Hier kannst du mehr über deine Marke erzählen. Beschreibe ein Produkt, kündige etwas an oder erstelle eine Willkommensnachricht für deine Kunden.<\/p>",
           "text_size": "large"
         }
+      },
+      "040f748c-2e1f-4f4a-9c51-5e7549bf6add": {
+        "type": "hero-startseite",
+        "settings": {
+          "background_image": "shopify:\/\/shop_images\/simon-hrozian-W2oMzcmmutc-unsplash.jpg",
+          "headline": "",
+          "description": "",
+          "link_text": "",
+          "link_destination": ""
+        }
       }
     },
     "content_for_index": [
+      "040f748c-2e1f-4f4a-9c51-5e7549bf6add",
       "hero-1",
       "2ed1f7b3-761d-4b43-8e8f-9fd129a254b9",
       "image-bar",
