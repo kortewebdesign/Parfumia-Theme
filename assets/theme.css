@@ -7098,6 +7098,10 @@ header{
   width: 60%;
   background-color:  var(--color-bg);
 }
+#hero-startseite{
+  height: 100vh;
+  width: 100vw;
+}
 @media only screen and (max-width: 749px) {
   header{
     top: 0;
