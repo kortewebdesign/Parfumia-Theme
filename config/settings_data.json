@@ -16,20 +16,6 @@
           "link-3": "shopify:\/\/pages\/contact"
         }
       },
-      "hero-1": {
-        "type": "hero",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/simon-hrozian-W2oMzcmmutc-unsplash.jpg",
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "x-large",
-          "text_size": "large",
-          "title": "",
-          "text": "",
-          "button_label": "",
-          "button_link": ""
-        }
-      },
       "feature-row": {
         "type": "feature-row",
         "settings": {
@@ -245,7 +231,6 @@
     },
     "content_for_index": [
       "040f748c-2e1f-4f4a-9c51-5e7549bf6add",
-      "hero-1",
       "2ed1f7b3-761d-4b43-8e8f-9fd129a254b9",
       "image-bar",
       "feature-row",
