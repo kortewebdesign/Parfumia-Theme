@@ -222,10 +222,10 @@
         "type": "hero-startseite",
         "settings": {
           "background_image": "shopify:\/\/shop_images\/simon-hrozian-W2oMzcmmutc-unsplash.jpg",
-          "headline": "",
+          "headline": "<p>ERSCHAFFE DEINEN EIGENEN DUFT!<\/p>",
           "description": "",
-          "link_text": "",
-          "link_destination": ""
+          "link_text": "Jetzt erstellen",
+          "link_destination": "kortewebdesign.de"
         }
       }
     },
