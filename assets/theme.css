@@ -7103,6 +7103,9 @@ header{
   width: 100vw;
   background-size: cover!important;
 }
+#hero-startseite h1{
+  color: var(--color-bg)!important;
+}
 #startseite-hero-text{
   display: flex;
   height: 100%;
