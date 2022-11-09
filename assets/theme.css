@@ -1159,7 +1159,7 @@ select,
 
 /*================ Headings ================*/
 h1{
-  font-size: calc(((var(--font-size-header)) / (var(--font-size-base))) * 2.5em);
+  font-size: calc(((var(--font-size-header)) / (var(--font-size-base))) * 2.2em);
 }
 h3, .h3,
 h4,
