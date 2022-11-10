@@ -7122,9 +7122,9 @@ main{
 }
 #cart-sidebanner{
   position: fixed;
-  top: calc(18vh);
+  top: 18vh;
   width: 40vw;
-  height: 90vh;
+  height: 80vh;
   background-color: var(--color-bg);
 }
 @media only screen and (max-width: 749px) {
