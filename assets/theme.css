@@ -7120,6 +7120,12 @@ header{
 main{
   padding-top: 0!important;
 }
+#cart-sidebanner{
+  position: fixed;
+  width: 40vw;
+  height: 90vh;
+  background-color: var(--color-bg);
+}
 @media only screen and (max-width: 749px) {
   header{
     top: 0;
