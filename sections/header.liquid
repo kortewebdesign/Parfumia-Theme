@@ -46,6 +46,9 @@
     {%- for item in cart.items -%}
     <div class="cart-item-wrapper grid">
       <img src="{{ item | img_url: 'x190' }}" alt="" class="grid__item one-half">
+      <div class="grid__item one-half">
+        <h3>{{item.title}}</h3>
+      </div>
     </div>
     {%- endfor -%}
   </div>
