@@ -45,7 +45,8 @@
     </div>
     <div class="gratis_beilage">
       {% if cart.total_price >= 50 %}
-      <h4 class="text-center">Es fehlen noch {{ 50 | minus: cart.total_price }} bis zu deiner gratis Cremé</h4>
+      <h4 class="text-center">Es fehlen noch {{ 50 | minus: cart.total_price | money_without_trailing_zeros }} bis zu
+        deiner gratis Cremé</h4>
       {% endif %}
     </div>
     {%- for item in cart.items -%}
