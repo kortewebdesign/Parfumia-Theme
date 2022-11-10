@@ -44,8 +44,8 @@
       <div class="close-button"></div>
     </div>
     <div class="gratis_beilage">
-      {% if cart.original_total_price < 50.00 %} <h4 class="text-center">Es fehlen noch {{ 50.00 | minus:
-        cart.original_total_price |
+      {% if cart.total_price < 50.0 %} <h4 class="text-center">Es fehlen noch {{ 50.0 | minus:
+        cart.total_price |
         money_without_currency }}€
         bis zu
         deiner gratis Cremé</h4>
