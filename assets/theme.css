@@ -7124,7 +7124,7 @@ main{
   position: fixed;
   top: 18vh;
   width: 40vw;
-  height: 75vh;
+  height: 80vh;
   background-color: var(--color-bg);
 }
 @media only screen and (max-width: 749px) {
