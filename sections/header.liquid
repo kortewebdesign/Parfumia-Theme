@@ -43,15 +43,11 @@
       <h2>Warenkorb</h2>
       <div class="close-button"></div>
     </div>
-    {%- if cart.item_count > 0 -%}
     {%- for item in cart.items -%}
     <div class="cart-item-wrapper grid">
       <img src="{{item.featured_image | img_url}}" alt="" class="grid__item one-half">
     </div>
     {%- endfor -%}
-    {%- else -%}
-    <h2 class="text-center">Dein Warenkorb ist leer</h2>
-    {%- endif -%}
   </div>
 </header>
 
