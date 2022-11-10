@@ -38,6 +38,7 @@
         </a></li>
     </ul>
   </div>
+  {%- assign decrease_value = 50.00 -%}
   <div id="cart-sidebanner">
     <div>
       <h2>Warenkorb</h2>
@@ -45,7 +46,8 @@
     </div>
     <div class="gratis_beilage">
       {% if cart.total_price >= 50 %}
-      <h4 class="text-center">Es fehlen noch {{ 50 | minus: cart.total_price | money_without_currency }}€ bis zu
+      <h4 class="text-center">Es fehlen noch {{ decrease_value | minus: cart.total_price | money_without_currency }}€
+        bis zu
         deiner gratis Cremé</h4>
       {% endif %}
     </div>
