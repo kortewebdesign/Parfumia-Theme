@@ -7123,6 +7123,7 @@ main{
 #cart-sidebanner{
   position: fixed;
   top: 18vh;
+  right: 0;
   width: 40vw;
   height: 78vh;
   background-color: var(--color-bg);
