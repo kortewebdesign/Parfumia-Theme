@@ -7018,11 +7018,12 @@ header{
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 .header-link-list a{
   font-weight: 600!important;
   text-transform: uppercase;
+  margin-right: 5px;
 }
 .logo-wrapper{
   padding-left: 0!important;
