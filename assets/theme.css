@@ -7126,6 +7126,7 @@ main{
   width: 40vw;
   height: 78vh;
   background-color: var(--color-bg);
+  border-radius: 20px;
 }
 @media only screen and (max-width: 749px) {
   header{
