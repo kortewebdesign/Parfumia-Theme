@@ -44,7 +44,7 @@
       <div class="close-button"></div>
     </div>
     <div class="gratis_beilage">
-      {% if cart.total_price < 50.0 %} <h4 class="text-center">Es fehlen noch {{ 50.0 | minus:
+      {% if cart.total_price < 50 %} <h4 class="text-center">Es fehlen noch {{ 50 | times: 1.0 | minus:
         cart.total_price |
         money_without_currency }}€
         bis zu
