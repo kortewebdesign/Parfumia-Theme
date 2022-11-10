@@ -39,7 +39,11 @@
     </ul>
   </div>
   <div id="cart-sidebanner">
+    {%- if cart.item_count > 0 -%}
 
+    {%- else -%}
+    <h2 class="text-center">Dein Warenkorb ist leer</h2>
+    {%- endif -%}
   </div>
 </header>
 
