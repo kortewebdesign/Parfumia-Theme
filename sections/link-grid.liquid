@@ -22,7 +22,8 @@
             <h3 style="position: relative; z-index: 1000">{{block.settings.title}}</h3>
             {% endif %}
             {%- if block.settings.link != blank -%}
-            <a class="btn" href="{{block.settings.link}}">{{block.settings.link-text}}</a>
+            <a class="btn" href="{{block.settings.link}}"
+                style="position: relative; z-index: 1000">{{block.settings.link-text}}</a>
             {%- endif -%}
         </div>
         {%- endfor -%}
