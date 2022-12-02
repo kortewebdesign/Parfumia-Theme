@@ -7124,6 +7124,9 @@ main{
   color: var(--color-bg);
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
 }
+.cart-wrapper > ul > li:hover{
+  cursor: pointer;
+}
 #cart-sidebanner{
   position: fixed;
   top: 18vh;
