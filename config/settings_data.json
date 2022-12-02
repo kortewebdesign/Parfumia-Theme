@@ -21,7 +21,8 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "layout": "left",
+          "image": "shopify:\/\/shop_images\/dario-gomes-MoPGCgHPS6I-unsplash.png",
+          "layout": "right",
           "title": "Foto mit Text",
           "text": "<p>Kombiniere große Schrift mit einem Bild, um den Fokus auf dein Produkt, deine Kategorie oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
           "button_label": "",
