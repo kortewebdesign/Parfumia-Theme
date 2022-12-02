@@ -295,8 +295,8 @@
             "settings": {
               "subtitle": "",
               "title": "",
-              "gradient-first": "",
-              "gradient-second": "",
+              "gradient-first": "#e07e84",
+              "gradient-second": "#bd6565",
               "fullscreen": false,
               "link": "",
               "link-text": ""
