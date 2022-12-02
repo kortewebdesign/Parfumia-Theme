@@ -248,9 +248,9 @@
               "title": "Finde heraus, welche Duftkombination am besten zu dir passt!",
               "gradient-first": "#7dc5cf",
               "gradient-second": "#63abc1",
-              "fullscreen": false,
-              "link": "",
-              "link-text": ""
+              "fullscreen": true,
+              "link": "shopify:\/\/pages\/contact",
+              "link-text": "Zum Test"
             }
           }
         },
