@@ -33,6 +33,9 @@
     {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+      {%- if section.settings.subtitle -%}
+        <h4>{{section.settings.subtitle}}</h4>
+      {%- endif -%}
       {% if section.settings.title != blank %}
         <h2 class="h3">{{ section.settings.title | escape }}</h2>
       {% endif %}
@@ -252,6 +255,11 @@
         "zh-CN": "带文本的图片",
         "zh-TW": "附文字的圖片"
       }
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Unterüberschrift"
     },
     {
       "type": "richtext",
