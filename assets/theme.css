@@ -7141,6 +7141,9 @@ main{
 #cart-sidebanner.active{
   right: 0;
 }
+h4 > strong{
+  color: var(--color-btn-primary);
+}
 @media only screen and (max-width: 749px) {
   header{
     top: 0;
