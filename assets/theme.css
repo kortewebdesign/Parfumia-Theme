@@ -7165,7 +7165,9 @@ h4 > strong{
     border-radius: 0;
     height: 12vh;
   }
-  
+  .grid .link-grid-item{
+    margin-top: 10px;
+  }
 #cart-sidebanner.active{
   right: 2vw;
 }
