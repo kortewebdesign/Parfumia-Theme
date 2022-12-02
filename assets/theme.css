@@ -7105,7 +7105,6 @@ header{
 }
 #hero-startseite{
   height: 100vh;
-  width: 100vw;
   background-size: cover!important;
 }
 #hero-startseite h1{
