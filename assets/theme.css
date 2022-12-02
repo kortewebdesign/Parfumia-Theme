@@ -7174,7 +7174,7 @@ h4 > strong{
   #hero-startseite{
     padding-bottom: 0;
   }
-  #hero-startseite{
+  #hero-startseite .grid__item{
     display: flex;
     justify-content: center;
   }
