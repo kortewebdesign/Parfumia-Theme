@@ -7149,6 +7149,12 @@ main{
 h4 > strong{
   color: var(--color-btn-primary)!important;
 }
+@media screen and (min-width: 750px){
+  .link-grid-item{
+    width: calc(50% - 20px);
+    margin: 10px;
+  }
+}
 @media only screen and (max-width: 749px) {
   header{
     top: 0;
