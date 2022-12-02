@@ -29,8 +29,9 @@
 
   <div class="feature-row">
     {% if section.settings.layout == 'left' %}
-      {{ image_layout }}
-    {% endif %}
+<div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
+          {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
+      </div>    {% endif %}
 
     <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
       {%- if section.settings.subtitle -%}
@@ -63,7 +64,9 @@
     </div>
 
     {% if section.settings.layout == 'right' %}
+     <div id="{{ wrapper_id }}" class="feature-row__image-wrapper js">
           {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
+      </div>
     {% endif %}
   </div>
 </div>
