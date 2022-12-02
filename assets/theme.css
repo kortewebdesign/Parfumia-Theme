@@ -7142,7 +7142,7 @@ main{
   right: 0;
 }
 h4 > strong{
-  color: var(--color-btn-primary);
+  color: var(--color-btn-primary)!important;
 }
 @media only screen and (max-width: 749px) {
   header{
