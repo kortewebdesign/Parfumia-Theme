@@ -240,6 +240,23 @@
       },
       "19063f73-b84b-45f8-aab4-12fcd6d156d1": {
         "type": "link-grid",
+        "blocks": {
+          "fe04ba8f-84e7-4bfa-9c18-3165b58e7a88": {
+            "type": "slide",
+            "settings": {
+              "subtitle": "Mach den Test",
+              "title": "Finde heraus, welche Duftkombination am besten zu dir passt!",
+              "gradient-first": "#7dc5cf",
+              "gradient-second": "#63abc1",
+              "fullscreen": false,
+              "link": "",
+              "link-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "fe04ba8f-84e7-4bfa-9c18-3165b58e7a88"
+        ],
         "settings": {
         }
       }
