@@ -7150,7 +7150,7 @@ h4 > strong{
   color: var(--color-btn-primary)!important;
 }
 @media screen and (min-width: 750px){
-  .link-grid-item:not(:nth-child(1)){
+  .grid .link-grid-item:not(:nth-child(1)){
     width: calc(50% - 25px);
     margin: 10px;
   }
