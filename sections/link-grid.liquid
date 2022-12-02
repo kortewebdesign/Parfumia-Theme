@@ -1,6 +1,15 @@
-<section class="page-width">
+<div class="page-width">
+    <div class="grid">
+        {%- for block in section.blocks -%}
+        <div
+            class="grid__item {%- if block.settings.fullscreen != false -%}one-whole {%- else %} small--one-whole medium-up--one-half{%- endif -%}">
 
-</section>
+
+
+        </div>
+        {%- endfor -%}
+    </div>
+</div>
 {% schema %}
 {
 "name": "Link Grid",
@@ -41,8 +50,8 @@
 ]
 }],
 "presets":[{
-    "name": "Link Grid",
-    "category": "picture"
+"name": "Link Grid",
+"category": "picture"
 }]
 }
 {% endschema %}
