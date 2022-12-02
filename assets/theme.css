@@ -7122,6 +7122,7 @@ main{
 }
 #cart-opener svg{
   color: var(--color-bg);
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
 }
 #cart-sidebanner{
   position: fixed;
