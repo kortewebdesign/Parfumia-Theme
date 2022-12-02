@@ -12,7 +12,7 @@
             </div>
         </div>
         {% endif %}
-        <div class="grid__item {%- if block.settings.fullscreen != false -%}one-whole{%- else -%}small--one-whole medium-up--one-half{%- endif -%}"
+        <div class="grid__item link-grid-item {%- if block.settings.fullscreen != false -%}one-whole{%- else -%}small--one-whole medium-up--one-half{%- endif -%}"
             style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}});">
             {% if block.settings.subtitle != blank %}
             <h4>{{block.settings.subtitle}}</h4>
