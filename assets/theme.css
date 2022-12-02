@@ -7155,4 +7155,8 @@ main{
   .cart-wrapper li:first-child{
     display: none!important;
   }
+  #cart-sidebanner{
+    right: -75vw;
+    width: 70vw;
+  }
 }
