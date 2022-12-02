@@ -3,6 +3,9 @@
         {%- for block in section.blocks -%}
         <div class="grid__item {%- if block.settings.fullscreen != false -%}one-whole{%- else -%}small--one-whole medium-up--one-half{%- endif -%}"
             style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}});">
+            {% if block.settings.fullscreen %}
+
+            {% endif %}
             {% if block.settings.subtitle != blank %}
             <h4>{{block.settings.subtitle}}</h4>
             {% endif %}
