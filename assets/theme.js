@@ -9688,6 +9688,6 @@ function removeImageLoadingAnimation(image) {
 
 jQuery(document).ready(function(){
   $("#cart-opener").click(function(){
-    $(".cart-sidebanner").toggleClass("active");
+    $("#cart-sidebanner").toggleClass("active");
   });
 });
