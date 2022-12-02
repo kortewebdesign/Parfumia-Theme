@@ -1,17 +1,20 @@
 <div class="page-width">
     <div class="grid">
         {%- for block in section.blocks -%}
+        {% if block.settings.fullscreen %}
+        <div class="grid" style="position: absolute;">
+            <div class="grid__item small--hide medium-up--one-half">
+                <p>&nbsp;</p>
+            </div>
+            <div class="grid__item small--hide medium-up--one-half">
+                <img src="{{block.settings.background_image | img_url: 'large'}}"
+                    alt="{{block.settings.background_image.alt}}">
+            </div>
+        </div>
+        {% endif %}
         <div class="grid__item {%- if block.settings.fullscreen != false -%}one-whole{%- else -%}small--one-whole medium-up--one-half{%- endif -%}"
             style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}}); position: relative">
-            {% if block.settings.fullscreen %}
-            <div class="grid" style="position: absolute;">
-                <div class="grid__item small--hide medium-up--one-half"> </div>
-                <div class="grid__item small--hide medium-up--one-half">
-                    <img src="{{block.settings.background_image | img_url: 'large'}}"
-                        alt="{{block.settings.background_image.alt}}">
-                </div>
-            </div>
-            {% endif %}
+
             {% if block.settings.subtitle != blank %}
             <h4>{{block.settings.subtitle}}</h4>
             {% endif %}
