@@ -9685,6 +9685,7 @@ function removeImageLoadingAnimation(image) {
     imageWrapper.removeAttribute('data-image-loading-animation');
   }
 }
+
 $(document).ready(function(){
   $("#cart-opener").click(function(){
     $("#cart-sidebanner").addClass("active");
