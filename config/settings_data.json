@@ -202,18 +202,6 @@
           "show_locale_selector": true
         }
       },
-      "72ac39c8-8a89-4df8-8d23-92379f043985": {
-        "type": "video",
-        "settings": {
-          "image_position": "center center",
-          "video_link": "",
-          "show_overlay": true,
-          "style": "background",
-          "height": "large",
-          "video_title": "",
-          "text_size": "medium"
-        }
-      },
       "2ed1f7b3-761d-4b43-8e8f-9fd129a254b9": {
         "type": "rich-text",
         "settings": {
@@ -252,7 +240,6 @@
       "image-bar",
       "feature-row",
       "4e22e392-adf0-41c8-b447-353c915d8ef9",
-      "72ac39c8-8a89-4df8-8d23-92379f043985",
       "feature-columns",
       "hero-2",
       "quotes"
