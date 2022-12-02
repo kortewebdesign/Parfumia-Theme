@@ -253,10 +253,36 @@
               "link": "shopify:\/\/pages\/contact",
               "link-text": "Zum Test"
             }
+          },
+          "7e289ef7-16a7-4bf0-9c49-63afc1d10b20": {
+            "type": "slide",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "gradient-first": "#93d4a1",
+              "gradient-second": "#5ff9b8",
+              "fullscreen": false,
+              "link": "",
+              "link-text": ""
+            }
+          },
+          "6f30fc8d-81bb-4574-a004-482c22537085": {
+            "type": "slide",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "gradient-first": "#d5e476",
+              "gradient-second": "#bbc16c",
+              "fullscreen": false,
+              "link": "",
+              "link-text": ""
+            }
           }
         },
         "block_order": [
-          "fe04ba8f-84e7-4bfa-9c18-3165b58e7a88"
+          "fe04ba8f-84e7-4bfa-9c18-3165b58e7a88",
+          "7e289ef7-16a7-4bf0-9c49-63afc1d10b20",
+          "6f30fc8d-81bb-4574-a004-482c22537085"
         ],
         "settings": {
         }
