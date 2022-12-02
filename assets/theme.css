@@ -7108,7 +7108,7 @@ header{
   background-size: cover!important;
   padding-bottom: 5%;
 }
-#hero-startseite h1{
+#hero-startseite h1 > p{
   color: var(--color-text-field)!important;
 }
 #startseite-hero-text{
