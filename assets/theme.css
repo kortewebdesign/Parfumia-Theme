@@ -7009,7 +7009,7 @@ header{
   height: 15vh;
   width: 99%;
   border-radius: 10px;
-  z-index: 1000;
+  z-index: 10000;
   margin-left: 0!important;
   transition: .2s background-color linear;
   padding: 0 2%!important;
