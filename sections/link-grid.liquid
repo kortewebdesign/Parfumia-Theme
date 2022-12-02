@@ -4,7 +4,7 @@
         <div class="grid__item {%- if block.settings.fullscreen != false -%}one-whole{%- else -%}small--one-whole medium-up--one-half{%- endif -%}"
             style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}}); position: relative">
             {% if block.settings.fullscreen %}
-            <div class="grid" style="position: absolute; z-index: -1">
+            <div class="grid" style="position: absolute;">
                 <div class="grid__item small--hide medium-up--one-half"> </div>
                 <div class="grid__item small--hide medium-up--one-half">
                     <img src="{{block.settings.background_image | img_url: 'large'}}"
