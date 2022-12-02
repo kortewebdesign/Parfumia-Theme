@@ -60,7 +60,8 @@
     {%- endfor -%}
   </div>
 </header>
-
+<script   src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+    integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="   crossorigin="anonymous"></script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -99,8 +100,7 @@
       "url": {{ shop.url | append: page.url | json }}
     }
 </script>
-<script   src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
-    integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="   crossorigin="anonymous"></script>
+
 {% endif %}
 {% schema %}
 {
