@@ -7109,7 +7109,7 @@ header{
   padding-bottom: 5%;
 }
 #hero-startseite h1{
-  color: var(--color-overlay-title-text)!important;
+  color: var(--color-text-field)!important;
 }
 #startseite-hero-text{
   display: flex;
