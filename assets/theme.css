@@ -7152,6 +7152,7 @@ h4 > strong{
 @media screen and (min-width: 750px){
   .one-whole{
     width: 100%!important;
+    margin: 10px;
   }
   .grid .link-grid-item{
     width: calc(50% - 25px);
