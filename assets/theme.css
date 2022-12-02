@@ -7150,7 +7150,7 @@ h4 > strong{
   color: var(--color-btn-primary)!important;
 }
 @media screen and (min-width: 750px){
-  .grid .link-grid-item:first-child{
+  .one-whole{
     width: 100%!important;
   }
   .grid .link-grid-item{
