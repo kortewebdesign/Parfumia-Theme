@@ -6,7 +6,10 @@
             {% if block.settings.fullscreen %}
             <div class="grid">
                 <div class="grid__item small--hide medium-up--one-half"> </div>
-                <div class="grid__item small--hide medium-up--one-half"></div>
+                <div class="grid__item small--hide medium-up--one-half">
+                    <img src="{{block.settings.background_image | img_url: 'large'}}"
+                        alt="{{block.settings.background_image.alt}}">
+                </div>
             </div>
             {% endif %}
             {% if block.settings.subtitle != blank %}
