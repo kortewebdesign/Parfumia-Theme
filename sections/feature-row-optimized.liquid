@@ -1,5 +1,5 @@
 <div class="page-width feature-row grid">
-  {% if section.settings.layout == left %}
+  {% if section.settings.layout == 'left' %}
     <div class="grid__item small--one-whole medium-up--one-half">
       <img src="{{ section.settings.image | img_url: 'large'}}" alt="{{section.settings.image.alt}}">
     </div>
@@ -33,7 +33,7 @@
         </a>
       {% endif %}
   </div>
-  {% if section.settings.layout == right %}
+  {% if section.settings.layout == 'right' %}
     <div class="grid__item small--one-whole medium-up--one-half">
       <img src="{{ section.settings.image | img_url: 'large'}}" alt="{{section.settings.image.alt}}">
     </div>
