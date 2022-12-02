@@ -7149,6 +7149,9 @@ main{
 h4 > strong{
   color: var(--color-btn-primary)!important;
 }
+.link-grid-item{
+  min-height: 40vh;
+}
 @media only screen and (max-width: 749px) {
   header{
     top: 0;
