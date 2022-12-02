@@ -33,6 +33,7 @@
       },
       "feature-columns": {
         "type": "feature-columns",
+        "disabled": true,
         "blocks": {
           "feature-columns-0": {
             "type": "text_block",
@@ -88,6 +89,7 @@
       },
       "hero-2": {
         "type": "hero",
+        "disabled": true,
         "settings": {
           "alignment": "center",
           "hero_layout": "full_width",
@@ -101,6 +103,7 @@
       },
       "quotes": {
         "type": "quotes",
+        "disabled": true,
         "blocks": {
           "quotes-0": {
             "type": "quote",
@@ -135,6 +138,7 @@
       },
       "image-bar": {
         "type": "image-bar",
+        "disabled": true,
         "blocks": {
           "image-bar-0": {
             "type": "image",
@@ -204,6 +208,7 @@
       },
       "2ed1f7b3-761d-4b43-8e8f-9fd129a254b9": {
         "type": "rich-text",
+        "disabled": true,
         "settings": {
           "full_width": false,
           "section_title": "Erschaffe deinen perfekten Duft!",
@@ -232,6 +237,11 @@
           "button_label": "",
           "button_link": ""
         }
+      },
+      "19063f73-b84b-45f8-aab4-12fcd6d156d1": {
+        "type": "link-grid",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -240,6 +250,7 @@
       "image-bar",
       "feature-row",
       "4e22e392-adf0-41c8-b447-353c915d8ef9",
+      "19063f73-b84b-45f8-aab4-12fcd6d156d1",
       "feature-columns",
       "hero-2",
       "quotes"
