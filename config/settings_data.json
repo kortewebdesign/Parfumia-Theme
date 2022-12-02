@@ -277,12 +277,38 @@
               "link": "",
               "link-text": ""
             }
+          },
+          "275ae771-4324-4757-8daf-1a7660d6665c": {
+            "type": "slide",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "gradient-first": "#869fdd",
+              "gradient-second": "#729dd0",
+              "fullscreen": false,
+              "link": "",
+              "link-text": ""
+            }
+          },
+          "c32768ce-c0bc-4ca6-8079-eb4a8a037b4a": {
+            "type": "slide",
+            "settings": {
+              "subtitle": "",
+              "title": "",
+              "gradient-first": "",
+              "gradient-second": "",
+              "fullscreen": false,
+              "link": "",
+              "link-text": ""
+            }
           }
         },
         "block_order": [
           "fe04ba8f-84e7-4bfa-9c18-3165b58e7a88",
           "7e289ef7-16a7-4bf0-9c49-63afc1d10b20",
-          "6f30fc8d-81bb-4574-a004-482c22537085"
+          "6f30fc8d-81bb-4574-a004-482c22537085",
+          "275ae771-4324-4757-8daf-1a7660d6665c",
+          "c32768ce-c0bc-4ca6-8079-eb4a8a037b4a"
         ],
         "settings": {
         }
