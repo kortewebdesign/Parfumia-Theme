@@ -60,6 +60,13 @@
     {%- endfor -%}
   </div>
 </header>
+<script>
+  $(document).ready(function () {
+    $("#cart-opener").click(function () {
+      $("#cart-sidebanner").toggleClass("active");
+    });
+  });
+</script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
