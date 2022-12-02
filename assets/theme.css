@@ -7148,6 +7148,10 @@ main{
     border-radius: 0;
     height: 12vh;
   }
+  
+#cart-sidebanner.active{
+  right: 3vw;
+}
   .cart-wrapper ul{
     width: 50px;
   }
