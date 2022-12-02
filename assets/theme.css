@@ -7120,7 +7120,7 @@ header{
 main{
   padding-top: 0!important;
 }
-#cart-opener svg{
+#cart-wrapper svg{
   color: var(--color-bg);
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
 }
