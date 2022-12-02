@@ -9686,7 +9686,7 @@ function removeImageLoadingAnimation(image) {
   }
 }
 
-$(document).ready(function(){
+jQuery(document).ready(function(){
   $("#cart-opener").click(function(){
     $(".cart-sidebanner").addClass("active");
   });
