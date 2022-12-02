@@ -7151,6 +7151,7 @@ h4 > strong{
 }
 .link-grid-item{
   min-height: 40vh!important;
+  height: fit-content;
 }
 @media only screen and (max-width: 749px) {
   header{
