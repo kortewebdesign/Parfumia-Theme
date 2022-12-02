@@ -7120,6 +7120,9 @@ header{
 main{
   padding-top: 0!important;
 }
+#cart-opener svg{
+  color: var(--color-bg);
+}
 #cart-sidebanner{
   position: fixed;
   top: 18vh;
