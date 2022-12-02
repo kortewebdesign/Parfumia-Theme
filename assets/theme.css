@@ -7112,6 +7112,9 @@ header{
 #hero-startseite h1 > p{
   color: var(--color-text-field)!important;
 }
+#hero-startseite .btn{
+  width: fit-content;
+}
 #startseite-hero-text{
   display: flex;
   height: 100%;
