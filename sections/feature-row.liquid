@@ -63,7 +63,7 @@
     </div>
 
     {% if section.settings.layout == 'right' %}
-      {{ image_layout }}
+          {{ section.settings.image | img_url: '600x600', scale: 2 | img_tag: section.settings.image.alt, 'feature-row__image' }}
     {% endif %}
   </div>
 </div>
