@@ -7173,6 +7173,7 @@ h4 > strong{
   }
   #hero-startseite{
     padding-bottom: 0;
+    padding-left: 4%!important;
   }
   #hero-startseite .grid__item{
     display: flex;
