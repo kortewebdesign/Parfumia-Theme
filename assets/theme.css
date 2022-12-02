@@ -7176,6 +7176,6 @@ h4 > strong{
   }
   #hero-startseite{
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
 }
