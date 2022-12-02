@@ -7109,7 +7109,7 @@ header{
   background-size: cover!important;
 }
 #hero-startseite h1{
-  color: var(--color-bg)!important;
+  color: var(--color-body)!important;
 }
 #startseite-hero-text{
   display: flex;
