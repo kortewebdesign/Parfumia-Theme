@@ -7124,7 +7124,7 @@ header{
 main{
   padding-top: 0!important;
 }
-.cart-wrapper > ul > li > svg{
+.cart-wrapper > ul > li > svg:not(#cart-number){
   color: var(--color-bg);
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.7em);
 }
