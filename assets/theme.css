@@ -7149,6 +7149,10 @@ main{
 h4 > strong{
   color: var(--color-btn-primary)!important;
 }
+.link-grid-item{
+  display: flex;
+  justify-content: center;
+}
 @media screen and (min-width: 750px){
   #link-grid .one-whole{
     width: calc(100% - 25px)!important;
