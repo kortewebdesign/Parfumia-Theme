@@ -7132,7 +7132,7 @@ main{
 .cart-wrapper > ul > li:hover{
   cursor: pointer;
 }
-#cart-opener{
+#cart-opener svg{
   position: relative;
 }
 #cart-sidebanner{
