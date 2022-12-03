@@ -1192,17 +1192,17 @@ h3, .h3 {
   letter-spacing: 0; }
   @media only screen and (max-width: 749px) {
     h3, .h3 {
-      font-size: calc(((var(--font-h3-mobile)) / (var(--font-size-base))) * 1em); } }
+      font-size: calc(((var(--font-h3-mobile)) / (var(--font-size-base))) * 1.4em); } }
 
 
 h4,
 .h4 {
-  font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1em); }
+  font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1.3em); }
   @media only screen and (max-width: 749px) {
     
     h4,
     .h4 {
-      font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1em); } }
+      font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1.2em); } }
 
 
 h5,
