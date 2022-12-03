@@ -7067,7 +7067,7 @@ header{
 }
 #cart-counter{
   position: absolute;
-  top: -5px;
+  top: 0;
   right: 0;
   height: 15px;
   width: 15px;
@@ -7132,7 +7132,7 @@ main{
 .cart-wrapper > ul > li:hover{
   cursor: pointer;
 }
-#cart-opener > svg{
+#cart-opener{
   position: relative;
 }
 #cart-sidebanner{
