@@ -7154,6 +7154,9 @@ h4 > strong{
   justify-content: center;
   flex-direction: column;
 }
+.link-grid-item{
+  width: fit-content!important;
+}
 @media screen and (min-width: 750px){
   #link-grid .one-whole{
     width: calc(100% - 25px)!important;
