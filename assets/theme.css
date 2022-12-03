@@ -7079,6 +7079,7 @@ header{
   border-radius: 100px;
   color: var(--color-body-text);
   font-weight: 600;
+  z-index: 100;
 }
 #hamburger-button{
   display: flex;
