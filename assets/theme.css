@@ -7132,6 +7132,9 @@ main{
 .cart-wrapper > ul > li:hover{
   cursor: pointer;
 }
+#cart-opener{
+  position: relative;
+}
 #cart-sidebanner{
   position: fixed;
   top: 18vh;
