@@ -7067,8 +7067,8 @@ header{
 }
 #cart-counter{
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -2%;
+  right: 2%;
   height: 15px;
   width: 15px;
   display: flex;
