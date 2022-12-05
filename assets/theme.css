@@ -7106,10 +7106,12 @@ header{
   background-color:  var(--color-bg);
 }
 #hamburger-button.active > div{
-  position: absolute;
-  justify-content: center;
   -webkit-animation: hamburger-div 1s forwards .3s;
   animation: hamburger-div 1s forwards .3s;
+}
+#hamburger-button.active > div.active{
+  position: absolute;
+  justify-content: center;
 }
 #hamburger-button.active > div > span:first-child{
   -webkit-animation: hamburger-span 1s forwards .3s;
