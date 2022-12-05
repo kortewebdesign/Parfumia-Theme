@@ -318,6 +318,15 @@
         "type": "advantages-stick",
         "settings": {
         }
+      },
+      "adc21f9b-26bc-499f-8a44-f73b66aed096": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Mehr als xxx zufriedene Kunden",
+          "text": "",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -330,7 +339,8 @@
       "feature-columns",
       "hero-2",
       "quotes",
-      "a8a613bd-821e-433b-a482-5d3ac15df403"
+      "a8a613bd-821e-433b-a482-5d3ac15df403",
+      "adc21f9b-26bc-499f-8a44-f73b66aed096"
     ]
   },
   "presets": {
