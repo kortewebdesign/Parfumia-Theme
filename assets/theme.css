@@ -7324,7 +7324,6 @@ h4 > strong{
   left: 0;
   background-color: #fff;
   display: none;
-  overflow-y: scroll;
 }
 #menu-banner.active{
   display: block;
