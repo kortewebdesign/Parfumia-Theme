@@ -7108,20 +7108,20 @@ header{
 #hamburger-button.active > div{
   position: absolute;
   justify-content: center;
-  -webkit-animation: hamburger-div 1s .3s forwards;
-  animation: hamburger-div 1s .3s forwards;
+  -webkit-animation: hamburger-div 1s forwards .3s;
+  animation: hamburger-div 1s forwards .3s;
 }
 #hamburger-button.active > div > span:first-child{
-  -webkit-animation: hamburger-span 1s .3s forwards;
-  animation: hamburger-span 1s .3s forwards;
+  -webkit-animation: hamburger-span 1s forwards .3s;
+  animation: hamburger-span 1s forwards .3s;
 }
 #hamburger-button.active > div > span:nth-child(2){
   -webkit-animation: hamburger-span2 1s forwards;
   animation: hamburger-span2 1s forwards;
 }
 #hamburger-button.active > div > span:nth-child(3){
-  -webkit-animation: hamburger-span3 1s .3s forwards;
-  animation: hamburger-span3 1s .3s forwards;
+  -webkit-animation: hamburger-span3 1s forwards .3s;
+  animation: hamburger-span3 1s forwards .3s;
 }
 @keyframes hamburger-div {
   0%{
