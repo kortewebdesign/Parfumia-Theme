@@ -7298,10 +7298,10 @@ h4 > strong{
   left: 0;
   background-color: #fff;
   opacity: 0;
-  transition: .4s all ease-in-out;
-  z-index: -10000;
+  display: none;
+  transition: .6s opacity ease-in-out;
 }
 #menu-banner.active{
+  display: block;
   opacity: 1;
-  z-index: 10000;
 }
