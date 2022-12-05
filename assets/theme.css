@@ -7299,7 +7299,9 @@ h4 > strong{
   background-color: #fff;
   opacity: 0;
   transition: .4s all ease-in-out;
+  z-index: -100;
 }
 #menu-banner.active{
   opacity: 1;
+  z-index: 10000;
 }
