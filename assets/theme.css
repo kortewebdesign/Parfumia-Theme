@@ -7106,7 +7106,8 @@ header{
   background-color:  var(--color-bg);
 }
 #hamburger-button.active > div{
-  position: relative;
+  position: absolute;
+  justify-content: center;
 }
 #hamburger-button.active > div > span:first-child{
   position: absolute;
