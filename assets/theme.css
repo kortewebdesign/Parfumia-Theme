@@ -557,6 +557,25 @@ textarea {
 .text-center {
   text-align: center !important; }
 
+.flex-item{
+    display: -webkit-box;      
+    display: -moz-box;      
+    display: -ms-flexbox; 
+    display: -webkit-flex; 
+    display: flex;
+}
+.flex-center{
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 /*================ Build Responsive Grid Classes ================*/
 @media only screen and (max-width: 749px) {
   /* Whole */
