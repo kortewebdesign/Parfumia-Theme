@@ -599,6 +599,9 @@ textarea {
   -ms-flex-align: center;
   align-items: center;
 }
+.br-image{
+  border-radius: 20px!important;
+}
 /*================ Build Responsive Grid Classes ================*/
 @media only screen and (max-width: 749px) {
   /* Whole */
