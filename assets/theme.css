@@ -7279,7 +7279,7 @@ h4 > strong{
   left: 0;
   background-color: #fff;
   opacity: 0;
-  transition: .5s all linear;
+  transition: .4s all ease-in-out;
 }
 #menu-banner.active{
   opacity: 1;
