@@ -7326,3 +7326,9 @@ h4 > strong{
 #menu-banner.active{
   display: block;
 }
+#menu-banner #menu-item{
+  height: 20vh;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-bottom: 2px solid #d5d5d5;
+}
