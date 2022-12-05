@@ -7324,6 +7324,7 @@ h4 > strong{
   left: 0;
   background-color: #fff;
   display: none;
+  overflow-y: scroll;
 }
 #menu-banner.active{
   display: block;
@@ -7333,5 +7334,4 @@ h4 > strong{
   padding-top: 15px;
   padding-bottom: 15px;
   border-bottom: 2px solid #d5d5d5;
-  padding-right: 10px;
 }
