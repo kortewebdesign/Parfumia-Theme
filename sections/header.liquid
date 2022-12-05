@@ -68,6 +68,10 @@
     $("#hamburger-button").click(function () {
       $("#hamburger-button").toggleClass("active");
     });
+    setTimeout(function () {
+      $('#hamburger-button > div').css("position", "absolute");
+      $('#hamburger-button > div').css("justify-content", "center");
+    })
   });
 </script>
 <script type="application/ld+json">
