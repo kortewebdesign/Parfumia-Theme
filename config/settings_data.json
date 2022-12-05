@@ -313,6 +313,11 @@
         ],
         "settings": {
         }
+      },
+      "a8a613bd-821e-433b-a482-5d3ac15df403": {
+        "type": "advantages-stick",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -324,7 +329,8 @@
       "19063f73-b84b-45f8-aab4-12fcd6d156d1",
       "feature-columns",
       "hero-2",
-      "quotes"
+      "quotes",
+      "a8a613bd-821e-433b-a482-5d3ac15df403"
     ]
   },
   "presets": {
