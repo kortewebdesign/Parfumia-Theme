@@ -7271,3 +7271,8 @@ h4 > strong{
     justify-content: center;
   }
 }
+#menu-banner{
+  position: fixed;
+  top: 12vh;
+  left: 0;
+}
