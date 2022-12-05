@@ -327,6 +327,15 @@
           "text": "",
           "text_size": "medium"
         }
+      },
+      "5fe09ab6-e69e-44fe-9c5a-9f18f94523e1": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Unsere Community <br> Poste dein Parfum jetzt mit dem Hashtag <b>#Parfumia<\/b>",
+          "text": "",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -340,7 +349,8 @@
       "hero-2",
       "quotes",
       "a8a613bd-821e-433b-a482-5d3ac15df403",
-      "adc21f9b-26bc-499f-8a44-f73b66aed096"
+      "adc21f9b-26bc-499f-8a44-f73b66aed096",
+      "5fe09ab6-e69e-44fe-9c5a-9f18f94523e1"
     ]
   },
   "presets": {
