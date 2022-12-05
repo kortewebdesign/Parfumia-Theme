@@ -1,8 +1,6 @@
 <div class="page-width">
     <div class="grid" style="position: relative; margin-left: 0!important" id="link-grid">
         {%- for block in section.blocks -%}
-        <img src="https://cdn.shopify.com/s/files/1/0670/8769/6176/files/chris-lee-70l1tDAI6rM-unsplash-white_5.png?v=1670244805"
-            alt="" style="position: absolute; left: 0; top: 0">
         {% if block.settings.fullscreen %}
         <div class="grid" style="position: absolute; width: 100%!important; height: 100%!important">
             <div class="grid__item small--hide medium-up--one-half">
@@ -16,7 +14,9 @@
         </div>
         {% endif %}
         <div class="grid__item {% if block.settings.fullscreen != false %}  one-whole{% else %}small--one-whole medium-up--one-half{% endif %} link-grid-item"
-            style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}}); min-height: 50vh!important; padding: 10% 5%; border-radius: 20px;">
+            style="background: linear-gradient(110deg, {{block.settings.gradient-first}}, {{block.settings.gradient-second}}); min-height: 50vh!important; padding: 10% 5%; border-radius: 20px; position: relative">
+            <img src="https://cdn.shopify.com/s/files/1/0670/8769/6176/files/chris-lee-70l1tDAI6rM-unsplash-white_5.png?v=1670244805"
+                alt="" style="position: absolute; left: 0; top: 0">
             {% if block.settings.subtitle != blank %}
             <h4>{{block.settings.subtitle}}</h4>
             {% endif %}
