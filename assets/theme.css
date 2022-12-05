@@ -7105,17 +7105,33 @@ header{
   width: 60%;
   background-color:  var(--color-bg);
 }
+#hamburger-button.active > div{
+  position: relative;
+}
 #hamburger-button.active > div > span:first-child{
-  -webkit-animation: hamburger-span2 1s forwards;
-  animation: hamburger-span2 1s forwards;
+  position: absolute;
+  -webkit-animation: hamburger-span 1s forwards;
+  animation: hamburger-span 1s forwards;
 }
 #hamburger-button.active > div > span:nth-child(2){
   -webkit-animation: hamburger-span2 1s forwards;
   animation: hamburger-span2 1s forwards;
 }
 #hamburger-button.active > div > span:nth-child(3){
-  -webkit-animation: hamburger-span2 1s forwards;
-  animation: hamburger-span2 1s forwards;
+  position: absolute;
+  -webkit-animation: hamburger-span3 1s forwards;
+  animation: hamburger-span3 1s forwards;
+}
+
+@keyframes hamburger-span3 {
+  0%{
+    transform: rotate(0deg) translateY(0);
+    bottom: 0;
+  }
+  100%{
+    transform: rotate(45deg) translateY(-50%);
+    bottom: 50%;
+  }
 }
 @keyframes hamburger-span2 {
   0%{
@@ -7129,6 +7145,17 @@ header{
   100%{
     width: 40%;
     left: -100%;
+  }
+}
+
+@keyframes hamburger-span {
+  0%{
+    transform: rotate(0deg) translateY(0);
+    top: 0;
+  }
+  100%{
+    transform: rotate(45deg) translateY(-50%);
+    top: 50%;
   }
 }
 #hero-startseite{
