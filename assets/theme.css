@@ -7279,4 +7279,5 @@ h4 > strong{
   left: 0;
   background-color: #fff;
   opacity: 0;
+  transition: .3s all linear;
 }
