@@ -7297,11 +7297,8 @@ h4 > strong{
   width: 100%;
   left: 0;
   background-color: #fff;
-  opacity: 0;
   display: none;
-  transition: .6s opacity ease-in-out;
 }
 #menu-banner.active{
   display: block;
-  opacity: 1;
 }
