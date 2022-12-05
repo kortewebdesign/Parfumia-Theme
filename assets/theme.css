@@ -7274,6 +7274,8 @@ h4 > strong{
 #menu-banner{
   position: fixed;
   top: 12vh;
+  height: 88vh;
+  width: 100%;
   left: 0;
   background-color: #fff;
 }
