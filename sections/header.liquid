@@ -80,6 +80,7 @@
     });
     $("#hamburger-button").click(function () {
       $("#hamburger-button").toggleClass("active");
+      $("#menu-banner").toggleClass("active");
       setTimeout(function () {
         $('#hamburger-button > div').toggleClass("active");
         $('#hamburger-button > div > span:first-child').toggleClass("active");
