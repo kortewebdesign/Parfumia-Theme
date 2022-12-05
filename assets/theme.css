@@ -7111,6 +7111,11 @@ header{
 @keyframes hamburger-span2 {
   0%{
     width: 60%;
+    left: 0;
+  }
+  25%{
+    width: 40%;
+    left: 20px;
   }
 }
 #hero-startseite{
