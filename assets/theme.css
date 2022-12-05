@@ -576,6 +576,15 @@ textarea {
     -ms-flex-align: center;
     align-items: center;
 }
+.flex-column{
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 /*================ Build Responsive Grid Classes ================*/
 @media only screen and (max-width: 749px) {
   /* Whole */
