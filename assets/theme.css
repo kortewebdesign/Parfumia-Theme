@@ -7125,19 +7125,11 @@ header{
   -webkit-animation: hamburger-span3 1s forwards .3s;
   animation: hamburger-span3 1s forwards .3s;
 }
-@keyframes hamburger-div {
-  0%{
-    position: absolute;
-    justify-content: center;
-  }
-  100%{
-    position: absolute;
-    justify-content: center;
-  }
+#hamburger-button.active > div > span.active{
+  position: absolute;
 }
 @keyframes hamburger-span3 {
   0%{
-    position: absolute;
     transform: rotate(0deg) translateY(0);
     bottom: 0;
   }
@@ -7163,7 +7155,6 @@ header{
 
 @keyframes hamburger-span {
   0%{
-    position: absolute;
     transform: rotate(0deg) translateY(0);
     top: 0;
   }
