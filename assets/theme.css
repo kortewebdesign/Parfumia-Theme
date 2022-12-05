@@ -7162,7 +7162,7 @@ h4 > strong{
   width: fit-content!important;
 }
 .logo-wrapper img{
-  min-width: 80px;
+  min-width: 60px;
   width: 20%;
 }
 @media screen and (min-width: 750px){
