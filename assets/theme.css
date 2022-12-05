@@ -7117,6 +7117,10 @@ header{
     width: 40%;
     left: 5px;
   }
+  100%{
+    width: 40%;
+    left: -20%;
+  }
 }
 #hero-startseite{
   height: 100vh;
