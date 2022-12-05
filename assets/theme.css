@@ -7106,7 +7106,8 @@ header{
   background-color:  var(--color-bg);
 }
 #hamburger-button.active > div > span:nth-child(2){
-  animation: hamburger-span2 1s linear;
+  -webkit-animation: hamburger-span2 1s forwards;
+  animation: hamburger-span2 1s forwards;
 }
 @keyframes hamburger-span2 {
   0%{
