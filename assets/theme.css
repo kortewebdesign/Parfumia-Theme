@@ -7105,7 +7105,15 @@ header{
   width: 60%;
   background-color:  var(--color-bg);
 }
+#hamburger-button.active > div > span:first-child{
+  -webkit-animation: hamburger-span2 1s forwards;
+  animation: hamburger-span2 1s forwards;
+}
 #hamburger-button.active > div > span:nth-child(2){
+  -webkit-animation: hamburger-span2 1s forwards;
+  animation: hamburger-span2 1s forwards;
+}
+#hamburger-button.active > div > span:nth-child(3){
   -webkit-animation: hamburger-span2 1s forwards;
   animation: hamburger-span2 1s forwards;
 }
