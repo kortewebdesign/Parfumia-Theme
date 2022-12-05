@@ -7130,7 +7130,7 @@ header{
     bottom: 0;
   }
   100%{
-    transform: rotate(45deg) translateY(-50%);
+    transform: rotate(-45deg) translateY(-50%);
     bottom: 50%;
   }
 }
