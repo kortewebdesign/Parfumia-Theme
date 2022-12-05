@@ -7280,7 +7280,7 @@ h4 > strong{
   }
   .grid .link-grid-item{
     width: calc(50% - 25px);
-    margin: 10px!important;
+    margin: 30px!important;
   }
 }
 @media only screen and (max-width: 749px) {
