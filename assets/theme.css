@@ -7131,7 +7131,7 @@ header{
 @keyframes hamburger-span3 {
   0%{
     transform: rotate(0deg) translateY(0);
-    bottom: 5px;
+    bottom: 10px;
   }
   100%{
     transform: rotate(-45deg) translateY(-50%);
@@ -7156,7 +7156,7 @@ header{
 @keyframes hamburger-span {
   0%{
     transform: rotate(0deg) translateY(0);
-    top: 5px;
+    top: 10px;
   }
   100%{
     transform: rotate(45deg) translateY(-50%);
