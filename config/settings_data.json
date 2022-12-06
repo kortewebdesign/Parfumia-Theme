@@ -336,6 +336,11 @@
           "text": "",
           "text_size": "medium"
         }
+      },
+      "36c710df-d99e-4950-af15-02fc05495a7b": {
+        "type": "testimonial-section",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -350,6 +355,7 @@
       "quotes",
       "a8a613bd-821e-433b-a482-5d3ac15df403",
       "adc21f9b-26bc-499f-8a44-f73b66aed096",
+      "36c710df-d99e-4950-af15-02fc05495a7b",
       "5fe09ab6-e69e-44fe-9c5a-9f18f94523e1"
     ]
   },
