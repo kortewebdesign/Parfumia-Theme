@@ -357,12 +357,33 @@
             "settings": {
               "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
             }
+          },
+          "5243c937-ec57-40e3-882f-78dcbb79a414": {
+            "type": "slide",
+            "settings": {
+              "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
+            }
+          },
+          "7306db16-265e-49d9-a1cf-ae595cd43a80": {
+            "type": "slide",
+            "settings": {
+              "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
+            }
+          },
+          "82539208-5f68-4223-98ed-dbcfba228999": {
+            "type": "slide",
+            "settings": {
+              "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
+            }
           }
         },
         "block_order": [
           "e2d922af-0bd8-4525-be6e-03e1c9c32c9b",
           "b2e0fa07-5d68-4449-8b7b-3b6fdf657594",
-          "52f7ce4a-d516-49b3-a626-62eb7063e520"
+          "52f7ce4a-d516-49b3-a626-62eb7063e520",
+          "5243c937-ec57-40e3-882f-78dcbb79a414",
+          "7306db16-265e-49d9-a1cf-ae595cd43a80",
+          "82539208-5f68-4223-98ed-dbcfba228999"
         ],
         "settings": {
         }
