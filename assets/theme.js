@@ -9687,7 +9687,7 @@ function removeImageLoadingAnimation(image) {
 }
 
 jQuery(function () {
-  $(".service-banner").slick({
+  $("#testimonial-slider").slick({
     dots: false,
     infinite: true,
     autoplay: true,
