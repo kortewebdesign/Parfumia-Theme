@@ -2,7 +2,7 @@
     <div id="testimonial-slider">
         {%- for block in section.blocks -%}
         <div class="testimonial">
-            {{ block.settings.video }}
+            <video src="{{block.settings.video}}"></video>
         </div>
         {%- endfor -%}
     </div>
@@ -16,9 +16,10 @@
 "name": "Video Testimonial",
 "settings":[
 {
-"type": "video",
+"type": "video_url",
 "id": "video",
-"label": "Video einfügen:"
+"label": "Video einfügen",
+"accept": [ "youtube", "vimeo"]
 }
 ]
 }
