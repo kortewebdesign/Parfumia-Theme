@@ -2,7 +2,9 @@
     <div id="testimonial-slider">
         {%- for block in section.blocks -%}
         <div class="testimonial">
-            <video src="{{block.settings.video}}"></video>
+            <iframe width="560" height="315" src="{{block.settings.video}}" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
         {%- endfor -%}
     </div>
@@ -16,10 +18,9 @@
 "name": "Video Testimonial",
 "settings":[
 {
-"type": "video_url",
+"type": "text",
 "id": "video",
-"label": "Video einfügen",
-"accept": [ "youtube", "vimeo"]
+"label": "Video einfügen"
 }
 ]
 }
