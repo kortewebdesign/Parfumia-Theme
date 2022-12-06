@@ -345,10 +345,24 @@
             "settings": {
               "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
             }
+          },
+          "b2e0fa07-5d68-4449-8b7b-3b6fdf657594": {
+            "type": "slide",
+            "settings": {
+              "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
+            }
+          },
+          "52f7ce4a-d516-49b3-a626-62eb7063e520": {
+            "type": "slide",
+            "settings": {
+              "video": "https:\/\/youtube.com\/embed\/sPnOYSt0LaQ"
+            }
           }
         },
         "block_order": [
-          "e2d922af-0bd8-4525-be6e-03e1c9c32c9b"
+          "e2d922af-0bd8-4525-be6e-03e1c9c32c9b",
+          "b2e0fa07-5d68-4449-8b7b-3b6fdf657594",
+          "52f7ce4a-d516-49b3-a626-62eb7063e520"
         ],
         "settings": {
         }
