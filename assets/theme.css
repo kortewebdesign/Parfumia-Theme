@@ -7370,7 +7370,7 @@ a.btn__next, a.btn__back{
     opacity: .8;
   }
 .form-page h2{
-  font-family: 'Open Sans';
+  font-family: var(--font-stack-header);
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
