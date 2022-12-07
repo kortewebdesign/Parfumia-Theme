@@ -7293,7 +7293,7 @@ h4 > strong{
   }
   
 #personality-test-headline{
-  padding-right: 0
+  padding-right: 0!important;
 }
 #personality-form{
   margin-top: 5vh;
