@@ -53,14 +53,14 @@
 </div>
 <script>
     function showNextPage() {
-        var currentPage = document.querySelector(".page:not([style*='display: none'])");
+        var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
         var nextPage = currentPage.nextElementSibling;
         currentPage.style.display = "none";
         nextPage.style.display = "block";
     }
 
     function showPrevPage() {
-        var currentPage = document.querySelector(".page:not([style*='display: none'])");
+        var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
         var prevPage = currentPage.previousElementSibling;
         currentPage.style.display = "none";
         prevPage.style.display = "block";
