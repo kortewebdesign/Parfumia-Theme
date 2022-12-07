@@ -7371,14 +7371,13 @@ a.btn__next, a.btn__back{
   }
 .form-page h2{
   font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 65px;
-text-align: center;
-text-transform: uppercase;
-
-color: rgba(0, 0, 0, 0.12);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.12);
 }
 @media only screen and (min-width: 750px) {
   a.btn__next, a.btn__back {
