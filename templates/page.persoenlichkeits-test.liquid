@@ -56,8 +56,8 @@
 </div>
 <script>
     function showNextPage() {
-        var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
-        var nextPage = currentPage.nextElementSibling;
+        let currentPage = document.querySelector(".form-page:not([style*='display: none'])");
+        let nextPage = currentPage.nextElementSibling;
 
         if (currentPage != document.getElementById('last-form-page')) {
             currentPage.style.display = "none";
@@ -72,8 +72,8 @@
     }
 
     function showPrevPage() {
-        var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
-        var prevPage = currentPage.previousElementSibling;
+        let currentPage = document.querySelector(".form-page:not([style*='display: none'])");
+        let prevPage = currentPage.previousElementSibling;
         if (currentPage != document.getElementById('first-form-page')) {
             currentPage.style.display = "none";
             prevPage.style.display = "block";
