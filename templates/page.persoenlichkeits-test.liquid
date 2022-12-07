@@ -53,6 +53,9 @@
             currentPage.style.display = "none";
             nextPage.style.display = "block";
         }
+        else {
+            document.getElementsByClassName(".btn-next").addClass("disabled")
+        }
     }
 
     function showPrevPage() {
