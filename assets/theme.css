@@ -7373,6 +7373,9 @@ a.btn__next, a.btn__back{
   a.btn__back{
     background-color: #3D3D3D;
   }
+  a.btn__next{
+    background-color: #BEE29A;
+  }
 #personality-form{
   background-color: #fff;
   padding: 5%;
