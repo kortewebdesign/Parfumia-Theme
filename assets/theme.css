@@ -7370,6 +7370,9 @@ a.btn__next, a.btn__back{
     color: #fff;
     opacity: .8;
   }
+#personality-form{
+  width: 100%!important;
+}
 .form-page h2{
   font-family: var(--font-stack-header);
   font-style: normal;
