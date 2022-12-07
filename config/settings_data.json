@@ -222,7 +222,7 @@
         "settings": {
           "background_image": "shopify:\/\/shop_images\/image-hero-banner.jpg",
           "headline": "<p>ERSCHAFFE DEINEN EIGENEN DUFT!<\/p>",
-          "description": "",
+          "description": "<p><\/p>",
           "link_text": "Jetzt erstellen",
           "link_destination": "#"
         }
@@ -234,7 +234,7 @@
           "layout": "right",
           "title": "Stich mit deinem  eigenen Parfüm <br> aus der Masse heraus!",
           "subtitle": "SEI INDIVIDUELL",
-          "text": "<p>Kombiniere große Schrift mit einem Bild, um den Fokus auf dein Produkt, deine Kategorie oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+          "text": "<p>Entdecke ein ganz neues Niveau an Individualität und kreiere Dein eigenes, individuelles Parfüm! Mit unserer einzigartigen Mischung aus modernster Technologie und hochwertigen, natürlichen Inhaltsstoffen kannst Du Deinen persönlichen Dufterschaffen, der Deinen Charakter und Deine Persönlichkeit widerspiegelt. Warte nicht länger underschaffe Dein eigenes, individuelles Parfüm jetzt!<\/p>",
           "button_label": "",
           "button_link": ""
         }
@@ -324,7 +324,7 @@
         "settings": {
           "full_width": false,
           "section_title": "Mehr als xxx zufriedene Kunden",
-          "text": "",
+          "text": "<p><\/p>",
           "text_size": "medium"
         }
       },
@@ -333,7 +333,7 @@
         "settings": {
           "full_width": false,
           "section_title": "<b>Unsere Community<\/b> <br> Poste dein Parfum jetzt mit dem Hashtag #FRAGRAVE",
-          "text": "",
+          "text": "<p><\/p>",
           "text_size": "medium"
         }
       },
