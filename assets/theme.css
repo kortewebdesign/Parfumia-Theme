@@ -7373,9 +7373,6 @@ a.btn__next, a.btn__back{
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
   margin-top: 5px;
 }
-a.btn__next.disabled, a.btn__back.disabled{
-  opacity: 0.5;
-}
   a.btn__next:hover, a.btn__back:hover{
     color: #fff;
     opacity: .8;
