@@ -49,7 +49,7 @@
     function showNextPage() {
         var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
         var nextPage = currentPage.nextElementSibling;
-        if (currentPage != document.getElementById('first-form-page')) {
+        if (currentPage != document.getElementById('last-form-page')) {
             currentPage.style.display = "none";
             nextPage.style.display = "block";
         }
@@ -58,8 +58,10 @@
     function showPrevPage() {
         var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
         var prevPage = currentPage.previousElementSibling;
-        currentPage.style.display = "none";
-        prevPage.style.display = "block";
+        if (currentPage != document.getElementById('first-form-page')) {
+            currentPage.style.display = "none";
+            prevPage.style.display = "block";
+        }
     }
 </script>
 <style>
