@@ -64,7 +64,7 @@
             nextPage.style.display = "block";
         }
         else {
-            document.getElementsByClassName(".btn-next").addClass("disabled")
+            document.getElementsByClassName(".btn__next").addClass("disabled")
         }
 
         currentPage = document.querySelector(".form-page:not([style*='display: none'])");
@@ -79,6 +79,13 @@
             currentPage.style.display = "none";
             prevPage.style.display = "block";
         }
+        else {
+            document.getElementsByClassName(".btn__back").addClass("disabled")
+        }
+
+        currentPage = document.querySelector(".form-page:not([style*='display: none'])");
+
+        document.getElementById('question-index-current').style.width = currentPage.dataset.index
     }
 </script>
 <style>
