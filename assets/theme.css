@@ -7292,6 +7292,9 @@ h4 > strong{
     height: 12vh;
   }
   
+#personality-test-headline{
+  padding-right: 0
+}
 #personality-form{
   margin-top: 5vh;
 }
@@ -7376,6 +7379,9 @@ a.btn__next, a.btn__back{
   }
 #personality-form{
   width: 100%!important;
+}
+#personality-test-headline{
+  padding-right: 5%;
 }
 .form-page h2{
   font-family: var(--font-stack-header);
