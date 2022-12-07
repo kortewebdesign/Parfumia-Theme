@@ -7370,11 +7370,11 @@ a.btn__next, a.btn__back{
     color: #fff;
     opacity: .8;
   }
-.form-page h2{
+.form-page h3{
   font-family: var(--font-stack-header);
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 65px;
   text-align: left;
   text-transform: uppercase;
