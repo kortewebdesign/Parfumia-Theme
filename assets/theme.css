@@ -7395,3 +7395,15 @@ a.btn__next, a.btn__back{
   background-color: #fff;
   padding: 5%;
 }
+#question-index-tracker{
+  width: 100%;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+#question-index-current{
+  width: 25%;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 1);
+
+}
