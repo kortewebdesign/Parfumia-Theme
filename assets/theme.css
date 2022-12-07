@@ -7357,8 +7357,7 @@ a.btn__next, a.btn__back{
   border: 1px solid transparent;
   border-radius: 10px;
   padding: 8px 15px;
-  background-color: var(--color-btn-primary);
-  color: var(--color-btn-primary-text);
+  color: #fff;
   font-family: var(--font-stack-header);
   font-style: var(--font-style-header);
   font-weight: var(--font-weight-header);
