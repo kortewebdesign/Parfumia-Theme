@@ -7399,6 +7399,7 @@ a.btn__next, a.btn__back{
   width: 100%;
   height: 5px;
   background-color: rgba(0, 0, 0, 0.12);
+  margin-bottom: 10px;
 }
 
 #question-index-current{
