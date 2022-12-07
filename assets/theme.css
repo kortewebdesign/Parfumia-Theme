@@ -7370,6 +7370,9 @@ a.btn__next, a.btn__back{
   a.btn__next, a.btn__back {
       padding: 10px 18px; } }
 
+  a.btn__back{
+    background-color: #3D3D3D;
+  }
 #personality-form{
   background-color: #fff;
   padding: 5%;
