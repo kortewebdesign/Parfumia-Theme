@@ -271,12 +271,12 @@
             "type": "slide",
             "settings": {
               "subtitle": "Die besten Düfte",
-              "title": "Entdecke die besten Parfüms unserere Kunden <br> <br><br>",
+              "title": "Entdecke die besten Parfüms unserere Kunden <br> <br>",
               "gradient-first": "#d5e476",
               "gradient-second": "#bbc16c",
               "fullscreen": false,
-              "link": "",
-              "link-text": ""
+              "link": "shopify:\/\/pages\/contact",
+              "link-text": "Zu den Parfüms"
             }
           },
           "275ae771-4324-4757-8daf-1a7660d6665c": {
