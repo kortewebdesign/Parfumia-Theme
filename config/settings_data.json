@@ -222,7 +222,7 @@
         "settings": {
           "background_image": "shopify:\/\/shop_images\/image-hero-banner.jpg",
           "headline": "<p>ERSCHAFFE DEINEN EIGENEN DUFT!<\/p>",
-          "description": "<p><\/p>",
+          "description": "",
           "link_text": "Jetzt erstellen",
           "link_destination": "#"
         }
@@ -258,8 +258,8 @@
           "7e289ef7-16a7-4bf0-9c49-63afc1d10b20": {
             "type": "slide",
             "settings": {
-              "subtitle": "Mach den Test",
-              "title": "Finde heraus, welche Duftkombination am besten zu dir passt!",
+              "subtitle": "<br><br>4 Jahreszeiten",
+              "title": "Entdecke die perfekten Parfüms für jede Jahreszeit",
               "gradient-first": "#93d4a1",
               "gradient-second": "#5ff9b8",
               "fullscreen": false,
