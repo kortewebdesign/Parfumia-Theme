@@ -7365,6 +7365,9 @@ a.btn__next, a.btn__back{
   letter-spacing: 0.08em;
   white-space: normal;
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em); }
+  a.btn__next:hover, a.btn__back:hover{
+    color: #fff;
+  }
 
 @media only screen and (min-width: 750px) {
   a.btn__next, a.btn__back {
