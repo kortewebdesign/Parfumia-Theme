@@ -7070,6 +7070,7 @@ header{
   text-transform: uppercase;
   margin-right: 10px;
   text-align: center;
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1.3em);
 }
 .logo-wrapper{
   padding-left: 0!important;
