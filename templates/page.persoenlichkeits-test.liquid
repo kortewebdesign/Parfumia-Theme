@@ -58,6 +58,7 @@
     function showNextPage() {
         var currentPage = document.querySelector(".form-page:not([style*='display: none'])");
         var nextPage = currentPage.nextElementSibling;
+
         if (currentPage != document.getElementById('last-form-page')) {
             currentPage.style.display = "none";
             nextPage.style.display = "block";
@@ -65,6 +66,9 @@
         else {
             document.getElementsByClassName(".btn-next").addClass("disabled")
         }
+
+        let widthIndex = 100 / currentPage.dataset.index;
+        document.getElementById('question-index-current').style.width = "$(widthIndex)%"
     }
 
     function showPrevPage() {
