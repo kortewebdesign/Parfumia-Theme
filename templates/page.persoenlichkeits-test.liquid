@@ -19,8 +19,6 @@
                 <input type="radio" name="color" value="red"> Red<br>
                 <input type="radio" name="color" value="yellow"> Yellow<br>
                 <input type="radio" name="color" value="purple"> Purple<br>
-                <button type="button">Previous</button>
-                <button type="button" onclick="showNextPage()">Next</button>
             </div>
             <div class="form-page" style="display: none;">
                 <h2>Q2</h2>
@@ -30,8 +28,6 @@
                 <input type="radio" name="color" value="red"> Red<br>
                 <input type="radio" name="color" value="yellow"> Yellow<br>
                 <input type="radio" name="color" value="purple"> Purple<br>
-                <button type="button" onclick="showPrevPage()">Previous</button>
-                <button type="button" onclick="showNextPage()">Next</button>
             </div>
             <div class="form-page" style="display: none;">
                 <h2>Q3</h2>
@@ -41,13 +37,11 @@
                 <input type="radio" name="color" value="red"> Red<br>
                 <input type="radio" name="color" value="yellow"> Yellow<br>
                 <input type="radio" name="color" value="purple"> Purple<br>
-                <button type="button" onclick="showPrevPage()">Previous</button>
-                <button type="button" type="submit">Next</button>
             </div>
         </form>
         <div class="feature-row">
-            <a class="btn__back feature-row__item" onclick="prevPage()">Zurück</a><a class="btn__next feature-row__item"
-                onclick="nextPage()">Weiter</a>
+            <a class="btn__back feature-row__item" onclick="showPrevPage()">Zurück</a><a
+                class="btn__next feature-row__item" onclick="showNextPage()">Weiter</a>
         </div>
     </div>
 </div>
