@@ -222,7 +222,7 @@
         "settings": {
           "background_image": "shopify:\/\/shop_images\/image-hero-banner.jpg",
           "headline": "<p>ERSCHAFFE DEINEN EIGENEN DUFT!<\/p>",
-          "description": "",
+          "description": "<p><\/p>",
           "link_text": "Jetzt erstellen",
           "link_destination": "#"
         }
@@ -250,7 +250,7 @@
               "gradient-first": "#7dc5cf",
               "gradient-second": "#63abc1",
               "fullscreen": true,
-              "link": "shopify:\/\/pages\/contact",
+              "link": "shopify:\/\/pages\/personlichkeitstest",
               "link-text": "Zum Test"
             }
           },
