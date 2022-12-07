@@ -281,6 +281,7 @@
           },
           "275ae771-4324-4757-8daf-1a7660d6665c": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "subtitle": "Mach den Test",
               "title": "Finde heraus, welche Duftkombination am besten zu dir passt!",
@@ -293,6 +294,7 @@
           },
           "c32768ce-c0bc-4ca6-8079-eb4a8a037b4a": {
             "type": "slide",
+            "disabled": true,
             "settings": {
               "subtitle": "Mach den Test",
               "title": "Finde heraus, welche Duftkombination am besten zu dir passt!",
