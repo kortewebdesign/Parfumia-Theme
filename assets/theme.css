@@ -7367,6 +7367,7 @@ a.btn__next, a.btn__back{
   font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em); }
   a.btn__next:hover, a.btn__back:hover{
     color: #fff;
+    opacity: .8;
   }
 
 @media only screen and (min-width: 750px) {
