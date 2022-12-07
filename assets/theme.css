@@ -7375,7 +7375,7 @@ a.btn__next, a.btn__back{
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.12);
 }
