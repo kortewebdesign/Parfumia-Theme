@@ -67,6 +67,8 @@
             document.getElementsByClassName(".btn-next").addClass("disabled")
         }
 
+        currentPage = document.querySelector(".form-page:not([style*='display: none'])");
+
         document.getElementById('question-index-current').style.width = currentPage.dataset.index
     }
 
